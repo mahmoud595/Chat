@@ -1,0 +1,28 @@
+.chatHeader {
+	padding: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid var(--secondaryGray);
+	cursor: pointer;
+}
+
+.chatHeaderContent {
+	display: flex;
+	align-items: center;
+}
+
+.chatbubbleImage {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.chatTitle {
+	color: #fff;
+	margin-left: 10px;
+	font-weight: 600;
+}

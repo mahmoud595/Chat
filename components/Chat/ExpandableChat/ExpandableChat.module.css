@@ -1,0 +1,24 @@
+.chatContainer {
+	position: fixed;
+	bottom: 0;
+	right: 80px;
+	width: 338px;
+	height: 455px;
+	background-color: var(--primaryGray);
+	display: flex;
+	flex-direction: column;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	max-height: calc(100vh - 66px);
+}
+@media only screen and (max-width: 600px) {
+	.chatContainer {
+		width: 100vw;
+		height: 100vh;
+		max-height: 100%;
+		margin: 0 auto;
+		position: fixed;
+		inset: 0;
+		z-index: 100;
+	}
+}

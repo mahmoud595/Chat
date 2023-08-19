@@ -1,0 +1,68 @@
+.form {
+	display: flex;
+	flex-direction: column;
+
+	align-self: center;
+	justify-content: center;
+	border: 1px solid var(--black);
+
+	padding: 20px;
+}
+.formContainer {
+	margin: 0 auto;
+	width: 30%;
+	margin-top: 20px;
+}
+.formItem {
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+	font-size: 20px;
+	position: relative;
+}
+
+.formItem > label {
+	margin-right: 20px;
+}
+.formItem > p {
+	margin-left: 20px;
+}
+
+.title {
+	text-align: center;
+}
+.submitBtn {
+	width: 20%;
+	padding: 10px;
+	align-self: center;
+	min-width: 100px;
+}
+
+.sketch {
+	position: absolute;
+	top: 80%;
+	left: 0;
+	z-index: 99;
+}
+
+@media only screen and (max-width: 1380px) {
+	.formContainer {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.formContainer {
+		width: 100%;
+		padding: 10px;
+	}
+	.form {
+		padding: 5px;
+	}
+	.formItem > label {
+		margin-right: 5px;
+	}
+	.formItem > p {
+		margin-left: 5px;
+	}
+}

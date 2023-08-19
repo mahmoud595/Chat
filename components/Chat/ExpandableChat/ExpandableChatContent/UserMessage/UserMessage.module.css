@@ -1,0 +1,50 @@
+.message {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+.selectedUserMessage {
+	flex-direction: row-reverse;
+}
+.avatarContainer {
+	position: relative;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+
+.avatar {
+	border-radius: 50%;
+}
+
+.textContainer {
+	background-color: var(--secondaryGray);
+	padding: 8px;
+	border-radius: 18px;
+	color: #fff;
+}
+
+.textContainer > p {
+	margin: 0;
+	line-break: anywhere;
+}
+.selectedUserTextContainer {
+	background-color: var(--blue);
+}
+.messageContainer {
+	margin-left: 8px;
+	max-width: 80%;
+}
+.selectedUserMessageContainer {
+	margin-right: 8px;
+	max-width: 80%;
+}
+
+.audioContainer {
+	width: 240px;
+	margin: 0 auto;
+}
+
+.imageMsg {
+	border-radius: 18px;
+}

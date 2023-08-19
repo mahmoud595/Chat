@@ -1,0 +1,17 @@
+.bubbleBtn {
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	padding: 30px;
+	border-radius: 50%;
+	border: 2px solid var(--black);
+}
+.bubble {
+	width: 60% !important;
+	height: 60% !important;
+	margin-top: 20%;
+	margin-left: 20%;
+}

@@ -1,0 +1,51 @@
+.inputsContainer {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+}
+
+.imageUploader {
+	cursor: pointer;
+}
+.voiceRecorder {
+	cursor: pointer;
+	margin-left: 10px;
+}
+.textFieldContainer {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.textInput {
+	flex: 1;
+	margin: 0 10px;
+	background-color: var(--secondaryGray);
+	border-color: transparent;
+	border-radius: 20px;
+	min-height: 20px;
+	max-height: 124px;
+	overflow-wrap: break-word;
+	overflow-y: auto;
+	text-wrap: wrap;
+	word-break: break-all;
+	padding: 6px;
+	color: #fff;
+	resize: none;
+}
+.textInput:focus {
+	outline: none;
+}
+.sendBtn {
+	all: unset;
+	cursor: pointer;
+}
+
+.uploadInput {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.imagIcon {
+	cursor: pointer;
+}

@@ -14,7 +14,7 @@ type ChatContextType = {
 export const ChatContext = createContext<ChatContextType | null>(null);
 export const initialChatData = {
 	title: 'Chat',
-	image: '/images/chat-bubble.png',
+	image: '/images/chat-bubble.svg',
 	user: users[0].id,
 	color: {
 		r: '36',
